@@ -1,0 +1,66 @@
+{
+    "name": "Digiwords",
+    "id": "digiwords",
+    "packaging_format": 1,
+    "description": {
+        "en": "With Digiwords, you can create interactive wordclouds.",
+        "fr": "Digiwords permet de créer des nuages de mots interactifs.)"
+    },
+    "version": "0.3.0~ynh1",
+    "url": "https://ladigitale.dev/",
+    "upstream": {
+        "license": "GPL-3.0-only",
+        "website": "https://ladigitale.dev/",
+        "demo": "https://ladigitale.dev/digiwords/#/",
+        "admindoc": "https://yunohost.org/packaging_apps",
+        "userdoc": "https://yunohost.org/apps",
+        "code": "https://gitlab.com/ladigitale/digiwords"
+    },
+    "license": "GPL-3.0-only",
+    "maintainer": {
+        "name": "Pierre-Amiel Giraud",
+        "email": "xxxxx"
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php8.0-fpm"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+                "ask": {
+                    "fr": "Choisissez un domaine pour Digiwords",
+                    "en": "Choose a domain name for Digiwords"
+                    }
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "example": "/example",
+                "default": "/digiwords"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "name": "language",
+                "type": "string",
+                "ask": {
+                    "en": "Choose the application language",
+                    "fr": "Choisissez la langue de l'application"
+                },
+                "choices": ["fr", "en"],
+                "default": "fr"
+            }
+        ]
+    }
+}
+ 
