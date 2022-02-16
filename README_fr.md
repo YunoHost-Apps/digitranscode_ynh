@@ -11,8 +11,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Digiwords permet de créer des nuages de mots interactifs.)
-
+Digiwords permet de créer des nuages de mots interactifs pour vos classes en présence et à distance.
 **Version incluse :** 0.3.0~ynh1
 
 **Démo :** https://ladigitale.dev/digiwords/#/
