@@ -1,5 +1,5 @@
 SOURCE_URL=https://kdrive.ladigitale.dev/app/share/139248/0847c602-8c5d-4edf-b784-fcdde84d86df/7638/download
-SOURCE_SUM=280cb56c13b5d087dc2b538be26ca227
+SOURCE_SUM=d337d63fdc1a151732e1bb8159615e71
 SOURCE_SUM_PRG=md5sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
