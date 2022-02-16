@@ -33,7 +33,7 @@
         "install" : [
             {
                 "name": "domain",
-                "type": "domain"
+                "type": "domain",
                 "ask": {
                     "fr": "Choisissez un domaine pour Digiwords",
                     "en": "Choose a domain name for Digiwords"
