@@ -150,8 +150,9 @@ ynh_add_fpm_config
 #=================================================
 # SPECIFIC UPGRADE
 #=================================================
-# ...
+# TAKE BACK THE OLD digiwords.db file
 #=================================================
+ynh_restore_file -o "/var/www/digiwords/inc/digiwords.db"
 
 #=================================================
 # GENERIC FINALIZATION
