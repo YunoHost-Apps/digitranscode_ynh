@@ -152,7 +152,8 @@ ynh_add_fpm_config
 #=================================================
 # TAKE BACK THE OLD digiwords.db file
 #=================================================
-ynh_restore_file -o "/var/www/digiwords/inc/digiwords.db"
+ynh_script_progression --message="Restoring database..." --time --weight=1
+ynh_restore_file -o "$final_pat/inc/digiwords.db"
 
 #=================================================
 # GENERIC FINALIZATION
