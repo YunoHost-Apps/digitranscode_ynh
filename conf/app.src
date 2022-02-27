@@ -1,5 +1,5 @@
-SOURCE_URL=https://kdrive.ladigitale.dev/app/share/139248/9f347a6f-4731-485a-9c9b-b653b250663e/7641/download
-SOURCE_SUM=d337d63fdc1a151732e1bb8159615e71
+SOURCE_URL=https://github.com/YunoHost-Apps/digiwords_ynh/archive/refs/tags/0.3.1.zip
+SOURCE_SUM=d786e3c4d99f71ba381e81735f1d471f7ecb0a96a22d437bf59def2e8034ddd3
 SOURCE_SUM_PRG=md5sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
