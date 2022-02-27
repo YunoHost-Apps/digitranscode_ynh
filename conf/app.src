@@ -1,6 +1,6 @@
 SOURCE_URL=https://github.com/YunoHost-Apps/digiwords_ynh/archive/refs/tags/0.3.1.zip
 SOURCE_SUM=d786e3c4d99f71ba381e81735f1d471f7ecb0a96a22d437bf59def2e8034ddd3
-SOURCE_SUM_PRG=md5sum
+SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
 #SOURCE_FILENAME=
