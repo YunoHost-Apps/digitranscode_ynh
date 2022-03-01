@@ -20,7 +20,7 @@
 		setup_private=1
 		setup_public=1
 		upgrade=1
-		upgrade=1	from_commit=9c768105e749fb961d6e15f1e020e44cc35fe81c
+#		upgrade=1	from_commit=9c768105e749fb961d6e15f1e020e44cc35fe81c
 		backup_restore=1
 		multi_instance=1
 		port_already_use=0
@@ -28,7 +28,7 @@
 ;;; Options
 Email=
 Notification=none
-;;; Upgrade options
-	; commit=9c768105e749fb961d6e15f1e020e44cc35fe81c
-		name=Fix of the scripts 20220221.
-		manifest_arg=domain=DOMAIN&path=PATH&language=fr&is_public=1&
+#;;; Upgrade options
+#	; commit=9c768105e749fb961d6e15f1e020e44cc35fe81c
+#		;name=Fix of the scripts 20220221.
+#		;manifest_arg=domain=DOMAIN&path=PATH&language=fr&is_public=1&
