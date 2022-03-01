@@ -110,23 +110,30 @@ if [ "$upgrade_type" == "UPGRADE_APP" ]
 then
 	ynh_script_progression --message="Upgrading source files..." --time --weight=1
 	
-	# Create a temporary directory
-	tmpdir="$(mktemp -d)"
+	# Test because file doesn’t exist at first install. It is created at first page opening.
+	if test -f "$final_path/inc/digiwords.db"
+	then
+		# Create a temporary directory
+		tmpdir="$(mktemp -d)"
 	
-	# Backup the inc/digiwords.db file to the temp dir
-	cp -ar "$final_path/inc/digiwords.db" "$tmpdir/digiwords.db"
+		# Backup the inc/digiwords.db file to the temp dir
+		cp -ar "$final_path/inc/digiwords.db" "$tmpdir/digiwords.db"
 	
-	# Remove the app directory securely
-	ynh_secure_remove --file=$final_path
+		# Remove the app directory securely
+		ynh_secure_remove --file=$final_path
+	
+		# Download, check integrity, uncompress and patch the source from app.src
+		ynh_setup_source --dest_dir="$final_path"
+	
+		# Copy digiwords.db back to the final_path
+		cp -ar "$tmpdir/digiwords.db" "$final_path/inc/digiwords.db"
 
-	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$final_path"
-	
-	# Copy digiwords.db back to the final_path
-	cp -ar "$tmpdir/digiwords.db" "$final_path/inc/digiwords.db"
-
-	# Remove the tmp directory securely
-	ynh_secure_remove --file="$tmpdir"
+		# Remove the tmp directory securely
+		ynh_secure_remove --file="$tmpdir"
+	else
+		# Download, check integrity, uncompress and patch the source from app.src
+		ynh_setup_source --dest_dir="$final_path"
+	fi
 fi
 
 # FIXME: this should be managed by the core in the future
