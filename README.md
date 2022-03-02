@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 With Digiwords, you can create interactive wordclouds.
 
-**Shipped version:** 0.3.0~ynh2
+**Shipped version:** 0.3.2~ynh1
 
 **Demo:** https://ladigitale.dev/digiwords/#/
 
