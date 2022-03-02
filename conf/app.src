@@ -1,6 +1,6 @@
-SOURCE_URL=https://kdrive.ladigitale.dev/app/share/139248/9f347a6f-4731-485a-9c9b-b653b250663e/7641/download
-SOURCE_SUM=d337d63fdc1a151732e1bb8159615e71
-SOURCE_SUM_PRG=md5sum
+SOURCE_URL=https://github.com/YunoHost-Apps/digiwords_ynh/files/8153168/digiwords-v0.3.2.zip
+SOURCE_SUM=2e97f6fcb29272c79a12b30c216177c6371efec053a401e4915db7ec46e557dc
+SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
 #SOURCE_FILENAME=
