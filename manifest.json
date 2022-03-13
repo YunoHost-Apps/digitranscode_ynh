@@ -12,8 +12,8 @@
         "license": "GPL-3.0-only",
         "website": "https://ladigitale.dev/",
         "demo": "https://ladigitale.dev/digiwords/#/",
-        "admindoc": "https://yunohost.org/packaging_apps",
-        "userdoc": "https://yunohost.org/apps",
+        "admindoc": "https://gitlab.com/ladigitale/digiwords/-/blob/master/README.md",
+        "userdoc": "https://ladigitale.dev/blog/digiwords-pour-creer-des-nuages-de-mots",
         "code": "https://gitlab.com/ladigitale/digiwords"
     },
     "license": "GPL-3.0-only",
@@ -34,10 +34,6 @@
             {
                 "name": "domain",
                 "type": "domain",
-                "ask": {
-                    "fr": "Choisissez un domaine pour Digiwords",
-                    "en": "Choose a domain name for Digiwords"
-                    }
             },
             {
                 "name": "path",
@@ -48,18 +44,11 @@
             {
                 "name": "is_public",
                 "type": "boolean",
+                "help": {
+                    "en": "If public, any visitor can create word clouds and see saved ones, providing they know their secret questions and answers."
+                    "fr": "Si l’application est public, n’importe quel visiteur pourra créer un nuage de mots et consulter ceux sauvegardés dont ils connaissent à la fois la question secrète et la réponse."
                 "default": true
             },
-            {
-                "name": "language",
-                "type": "string",
-                "ask": {
-                    "en": "Choose the application language",
-                    "fr": "Choisissez la langue de l'application"
-                },
-                "choices": ["fr", "en"],
-                "default": "fr"
-            }
         ]
     }
 }
