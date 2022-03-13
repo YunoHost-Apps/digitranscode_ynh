@@ -45,8 +45,9 @@
                 "name": "is_public",
                 "type": "boolean",
                 "help": {
-                    "en": "If public, any visitor can create word clouds and see saved ones, providing they know their secret questions and answers."
+                    "en": "If public, any visitor can create word clouds and see saved ones, providing they know their secret questions and answers.",
                     "fr": "Si l’application est public, n’importe quel visiteur pourra créer un nuage de mots et consulter ceux sauvegardés dont ils connaissent à la fois la question secrète et la réponse."
+                },
                 "default": true
             },
         ]
