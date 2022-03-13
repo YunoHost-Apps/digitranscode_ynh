@@ -24,8 +24,8 @@ With Digiwords, you can create interactive wordclouds.
 ## Documentation and resources
 
 * Official app website: https://ladigitale.dev/
-* Official user documentation: https://yunohost.org/apps
-* Official admin documentation: https://yunohost.org/packaging_apps
+* Official user documentation: https://ladigitale.dev/blog/digiwords-pour-creer-des-nuages-de-mots
+* Official admin documentation: https://gitlab.com/ladigitale/digiwords/-/blob/master/README.md
 * Upstream app code repository: https://gitlab.com/ladigitale/digiwords
 * YunoHost documentation for this app: https://yunohost.org/app_digiwords
 * Report a bug: https://github.com/YunoHost-Apps/digiwords_ynh/issues
