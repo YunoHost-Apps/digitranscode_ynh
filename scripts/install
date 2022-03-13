@@ -101,7 +101,7 @@ ynh_app_setting_set --app=$app --key=language --value=$language
 #=================================================
 # INSTALL DEPENDENCIES
 #=================================================
-ynh_script_progression --message="Installing dependencies..." --time --weight=1
+ynh_script_progression --message="Installing dependencies..." --weight=1
 
 ### `ynh_install_app_dependencies` allows you to add any "apt" dependencies to the package.
 ### Those deb packages will be installed as dependencies of this package.
@@ -116,7 +116,7 @@ ynh_install_app_dependencies $pkg_dependencies
 #=================================================
 # CREATE DEDICATED USER
 #=================================================
-ynh_script_progression --message="Configuring system user..." --time --weight=1
+ynh_script_progression --message="Configuring system user..." --weight=1
 
 # Create a system user
 ynh_system_user_create --username=$app --home_dir="$final_path"
@@ -143,7 +143,7 @@ ynh_system_user_create --username=$app --home_dir="$final_path"
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
-ynh_script_progression --message="Setting up source files..." --time --weight=1
+ynh_script_progression --message="Setting up source files..." --weight=1
 
 ### `ynh_setup_source` is used to install an app from a zip or tar.gz file,
 ### downloaded from an upstream source, like a git repository.
@@ -166,7 +166,7 @@ chown -R $app:www-data "$final_path"
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Configuring NGINX web server..." --time --weight=1
+ynh_script_progression --message="Configuring NGINX web server..." --weight=1
 
 ### `ynh_add_nginx_config` will use the file conf/nginx.conf
 
@@ -176,7 +176,7 @@ ynh_add_nginx_config
 #=================================================
 # PHP-FPM CONFIGURATION
 #=================================================
-ynh_script_progression --message="Configuring PHP-FPM..." --time --weight=1
+ynh_script_progression --message="Configuring PHP-FPM..." --weight=1
 
 ### `ynh_add_fpm_config` is used to set up a PHP config.
 ### You can remove it if your app doesn't use PHP.
@@ -375,7 +375,7 @@ ynh_add_fpm_config
 #=================================================
 # SETUP SSOWAT
 #=================================================
-ynh_script_progression --message="Configuring permissions..." --time --weight=1
+ynh_script_progression --message="Configuring permissions..." --weight=1
 
 # Make app public if necessary
 if [ $is_public -eq 1 ]
@@ -399,7 +399,7 @@ fi
 #=================================================
 # RELOAD NGINX
 #=================================================
-ynh_script_progression --message="Reloading NGINX web server..." --time --weight=1
+ynh_script_progression --message="Reloading NGINX web server..." --weight=1
 
 ynh_systemd_action --service_name=nginx --action=reload
 
@@ -407,5 +407,5 @@ ynh_systemd_action --service_name=nginx --action=reload
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Installation of $app completed" --time --last
+ynh_script_progression --message="Installation of $app completed" --last
 
