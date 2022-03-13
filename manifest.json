@@ -49,7 +49,7 @@
                     "fr": "Si l’application est public, n’importe quel visiteur pourra créer un nuage de mots et consulter ceux sauvegardés dont ils connaissent à la fois la question secrète et la réponse."
                 },
                 "default": true
-            },
+            }
         ]
     }
 }
