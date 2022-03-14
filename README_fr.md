@@ -13,15 +13,15 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Digiwords permet de créer des nuages de mots interactifs.)
 
-**Version incluse :** 0.3.2~ynh1
+**Version incluse :** 0.3.2~ynh2
 
 **Démo :** https://ladigitale.dev/digiwords/#/
 
 ## Documentations et ressources
 
 * Site officiel de l'app : https://ladigitale.dev/
-* Documentation officielle utilisateur : https://yunohost.org/apps
-* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
+* Documentation officielle utilisateur : https://ladigitale.dev/blog/digiwords-pour-creer-des-nuages-de-mots
+* Documentation officielle de l'admin : https://gitlab.com/ladigitale/digiwords/-/blob/master/README.md
 * Dépôt de code officiel de l'app : https://gitlab.com/ladigitale/digiwords
 * Documentation YunoHost pour cette app : https://yunohost.org/app_digiwords
 * Signaler un bug : https://github.com/YunoHost-Apps/digiwords_ynh/issues
