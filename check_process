@@ -20,7 +20,7 @@
 		setup_private=1
 		setup_public=1
 		upgrade=1
-#		upgrade=1	from_commit=9c768105e749fb961d6e15f1e020e44cc35fe81c
+		upgrade=1	from_commit=2ee5b9e0cfc15e36cdb63b02d6057148600f08bf
 		backup_restore=1
 		multi_instance=1
 		port_already_use=0
