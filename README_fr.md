@@ -11,7 +11,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Digiwords permet de créer des nuages de mots interactifs.)
+Digiwords permet de créer des nuages de mots interactifs.
 
 **Version incluse :** 0.3.2~ynh2
 
