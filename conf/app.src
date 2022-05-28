@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/YunoHost-Apps/digiwords_ynh/files/8153168/digiwords-v0.3.2.zip
-SOURCE_SUM=2e97f6fcb29272c79a12b30c216177c6371efec053a401e4915db7ec46e557dc
+SOURCE_URL=https://github.com/YunoHost-Apps/digiwords_ynh/releases/download/0.3.3/digiwords-0.3.3.zip
+SOURCE_SUM=78564c2aa18e0702972994808843587dde876813dfddc06905924a4354a54156
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
