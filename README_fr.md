@@ -17,7 +17,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 Digiwords permet de créer des nuages de mots interactifs.
 
-**Version incluse :** 0.3.2~ynh2
+**Version incluse :** 0.3.3~ynh1
 
 **Démo :** https://ladigitale.dev/digiwords/#/
 ## Documentations et ressources
