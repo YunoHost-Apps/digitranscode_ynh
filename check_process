@@ -20,7 +20,7 @@
 		setup_private=1
 		setup_public=1
 		upgrade=1
-		upgrade=1	from_commit=fabe9c7bdb98a0569148a79546e2889c2823d79a
+		upgrade=1	from_commit=cc131db79e58280d13674c7a99cb6d21cd67f7d5
 		backup_restore=1
 		multi_instance=1
 		port_already_use=0
@@ -29,6 +29,6 @@
 Email=
 Notification=none
 ;;; Upgrade options
-	; commit=fabe9c7bdb98a0569148a79546e2889c2823d79a
-		;name=Fix of the scripts.
+	; commit=cc131db79e58280d13674c7a99cb6d21cd67f7d5
+		;name=Bump from 0.3.3.
 		;manifest_arg=domain=DOMAIN&path=PATH&language=fr&is_public=1&
