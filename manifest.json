@@ -6,15 +6,15 @@
         "en": "With Digiwords, you can create interactive wordclouds.",
         "fr": "Digiwords permet de créer des nuages de mots interactifs."
     },
-    "version": "0.3.3~ynh1",
+    "version": "0.3.5~ynh1",
     "url": "https://ladigitale.dev/",
     "upstream": {
         "license": "GPL-3.0-only",
         "website": "https://ladigitale.dev/",
         "demo": "https://ladigitale.dev/digiwords/#/",
-        "admindoc": "https://gitlab.com/ladigitale/digiwords/-/blob/master/README.md",
+        "admindoc": "https://codeberg.org/ladigitale/digiwords/src/branch/master/README.md",
         "userdoc": "https://ladigitale.dev/blog/digiwords-pour-creer-des-nuages-de-mots",
-        "code": "https://gitlab.com/ladigitale/digiwords"
+        "code": "https://codeberg.org/ladigitale/digiwords"
     },
     "license": "GPL-3.0-only",
     "maintainer": {

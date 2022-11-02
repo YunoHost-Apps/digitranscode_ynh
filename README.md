@@ -17,15 +17,15 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 With Digiwords, you can create interactive wordclouds.
 
-**Shipped version:** 0.3.3~ynh1
+**Shipped version:** 0.3.5~ynh1
 
 **Demo:** https://ladigitale.dev/digiwords/#/
 ## Documentation and resources
 
 * Official app website: <https://ladigitale.dev/>
 * Official user documentation: <https://ladigitale.dev/blog/digiwords-pour-creer-des-nuages-de-mots>
-* Official admin documentation: <https://gitlab.com/ladigitale/digiwords/-/blob/master/README.md>
-* Upstream app code repository: <https://gitlab.com/ladigitale/digiwords>
+* Official admin documentation: <https://codeberg.org/ladigitale/digiwords/src/branch/master/README.md>
+* Upstream app code repository: <https://codeberg.org/ladigitale/digiwords>
 * YunoHost documentation for this app: <https://yunohost.org/app_digiwords>
 * Report a bug: <https://github.com/YunoHost-Apps/digiwords_ynh/issues>
 
