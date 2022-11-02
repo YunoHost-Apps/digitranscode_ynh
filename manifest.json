@@ -1,20 +1,20 @@
 {
-    "name": "Digiwords",
-    "id": "digiwords",
+    "name": "Digitranscode",
+    "id": "digitranscode",
     "packaging_format": 1,
     "description": {
-        "en": "With Digiwords, you can create interactive wordclouds.",
-        "fr": "Digiwords permet de créer des nuages de mots interactifs."
+        "en": "an online app that can convert audio files (.mp3, .wav, .m4a, .ogg, .flac, .aac, .wma) and video files (.wmv, .avi, .webm, .mkv, .ogm, .mp4, .m4v, .mov, .flv) into different formats.",
+        "fr": "Une application en ligne qui permet de convertir des fichiers audio (.mp3, .wav, .m4a, .ogg, .flac, .aac, .wma) et des vidéos (.wmv, .avi, .webm, .mkv, .ogm, .mp4, .m4v, .mov, .flv) en différents formats."
     },
-    "version": "0.3.5~ynh1",
+    "version": "0.1.2~ynh1",
     "url": "https://ladigitale.dev/",
     "upstream": {
         "license": "GPL-3.0-only",
         "website": "https://ladigitale.dev/",
-        "demo": "https://ladigitale.dev/digiwords/#/",
-        "admindoc": "https://codeberg.org/ladigitale/digiwords/src/branch/master/README.md",
-        "userdoc": "https://ladigitale.dev/blog/digiwords-pour-creer-des-nuages-de-mots",
-        "code": "https://codeberg.org/ladigitale/digiwords"
+        "demo": "https://ladigitale.dev/digitranscode/",
+        "admindoc": "https://codeberg.org/ladigitale/digitranscode/src/branch/main/README.md",
+        "userdoc": "https://ladigitale.dev/blog/digitranscode-pour-convertir-des-fichiers-audio-et-des-videos",
+        "code": "https://codeberg.org/ladigitale/digitranscode"
     },
     "license": "GPL-3.0-only",
     "maintainer": {
@@ -22,7 +22,7 @@
         "email": "xxxxx"
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0"
     },
     "multi_instance": true,
     "services": [
@@ -39,14 +39,14 @@
                 "name": "path",
                 "type": "path",
                 "example": "/example",
-                "default": "/digiwords"
+                "default": "/digitranscode"
             },
             {
                 "name": "is_public",
                 "type": "boolean",
                 "help": {
-                    "en": "If public, any visitor can create word clouds and see saved ones, providing they know their secret questions and answers.",
-                    "fr": "Si l’application est publique, n’importe quel visiteur pourra créer un nuage de mots et consulter ceux sauvegardés dont ils connaissent à la fois la question secrète et la réponse."
+                    "en": "If public, any visitor can convert audio or video files using your server.",
+                    "fr": "Si l’application est publique, n’importe quel visiteur pourra utiliser votre serveur pour convertir des fichiers audio et vidéos."
                 },
                 "default": true
             }
