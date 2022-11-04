@@ -3,8 +3,8 @@
     "id": "digitranscode",
     "packaging_format": 1,
     "description": {
-        "en": "an online app that can convert audio files (.mp3, .wav, .m4a, .ogg, .flac, .aac, .wma) and video files (.wmv, .avi, .webm, .mkv, .ogm, .mp4, .m4v, .mov, .flv) into different formats.",
-        "fr": "Une application en ligne qui permet de convertir des fichiers audio (.mp3, .wav, .m4a, .ogg, .flac, .aac, .wma) et des vidéos (.wmv, .avi, .webm, .mkv, .ogm, .mp4, .m4v, .mov, .flv) en différents formats."
+        "en": "an online app that can convert audio files and video files into different formats.",
+        "fr": "Une application en ligne qui permet de convertir des fichiers audio et des vidéos en différents formats."
     },
     "version": "0.1.2~ynh1",
     "url": "https://ladigitale.dev/",
