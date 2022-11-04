@@ -15,7 +15,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-an online app that can convert audio files (.mp3, .wav, .m4a, .ogg, .flac, .aac, .wma) and video files (.wmv, .avi, .webm, .mkv, .ogm, .mp4, .m4v, .mov, .flv) into different formats.
+an online app that can convert audio files and video files into different formats.
 
 **Shipped version:** 0.1.2~ynh1
 
