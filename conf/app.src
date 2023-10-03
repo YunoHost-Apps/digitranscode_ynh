@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/YunoHost-Apps/digitranscode_ynh/releases/download/0.1.2/digitranscode-v0.1.2.zip
-SOURCE_SUM=dafa74cbffa3c330ec94ec5a3cb7ee6c07639c1cd89a4b5cce3384098027bbb6
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=zip
-SOURCE_IN_SUBDIR=true
-#SOURCE_FILENAME=
-SOURCE_EXTRACT=true
