@@ -16,7 +16,8 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Une application en ligne qui permet de convertir des fichiers audio et des vidéos en différents formats.
+Digitranscode est une application simple pour convertir des fichiers audio et des vidéos grâce à FFMPEG.wasm - https://github.com/ffmpegwasm/ffmpeg.wasm (MIT License).
+
 
 **Version incluse :** 0.1.2~ynh1
 
