@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Digitranscode for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/digitranscode.svg)](https://dash.yunohost.org/appci/app/digitranscode) ![Working status](https://ci-apps.yunohost.org/ci/badges/digitranscode.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/digitranscode.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/digitranscode.svg)](https://dash.yunohost.org/appci/app/digitranscode) ![Working status](https://ci-apps.yunohost.org/ci/badges/digitranscode.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/digitranscode.maintain.svg)
+
 [![Install Digitranscode with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digitranscode)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -26,7 +27,6 @@ an online app that can convert audio files and video files into different format
 * Official user documentation: <https://ladigitale.dev/blog/digitranscode-pour-convertir-des-fichiers-audio-et-des-videos>
 * Official admin documentation: <https://codeberg.org/ladigitale/digitranscode/src/branch/main/README.md>
 * Upstream app code repository: <https://codeberg.org/ladigitale/digitranscode>
-* YunoHost documentation for this app: <https://yunohost.org/app_digitranscode>
 * Report a bug: <https://github.com/YunoHost-Apps/digitranscode_ynh/issues>
 
 ## Developer info

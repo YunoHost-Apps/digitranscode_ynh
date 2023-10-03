@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Digitranscode pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/digitranscode.svg)](https://dash.yunohost.org/appci/app/digitranscode) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/digitranscode.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/digitranscode.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/digitranscode.svg)](https://dash.yunohost.org/appci/app/digitranscode) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/digitranscode.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/digitranscode.maintain.svg)
+
 [![Installer Digitranscode avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digitranscode)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Digitranscode rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Digitranscode rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Une application en ligne qui permet de convertir des fichiers audio et des vidéos en différents formats.
 
@@ -22,11 +23,10 @@ Une application en ligne qui permet de convertir des fichiers audio et des vidé
 **Démo :** https://ladigitale.dev/digitranscode/
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://ladigitale.dev/>
+* Site officiel de l’app : <https://ladigitale.dev/>
 * Documentation officielle utilisateur : <https://ladigitale.dev/blog/digitranscode-pour-convertir-des-fichiers-audio-et-des-videos>
-* Documentation officielle de l'admin : <https://codeberg.org/ladigitale/digitranscode/src/branch/main/README.md>
-* Dépôt de code officiel de l'app : <https://codeberg.org/ladigitale/digitranscode>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_digitranscode>
+* Documentation officielle de l’admin : <https://codeberg.org/ladigitale/digitranscode/src/branch/main/README.md>
+* Dépôt de code officiel de l’app : <https://codeberg.org/ladigitale/digitranscode>
 * Signaler un bug : <https://github.com/YunoHost-Apps/digitranscode_ynh/issues>
 
 ## Informations pour les développeurs
@@ -41,4 +41,4 @@ ou
 sudo yunohost app upgrade digitranscode -u https://github.com/YunoHost-Apps/digitranscode_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
