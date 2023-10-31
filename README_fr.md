@@ -28,6 +28,7 @@ Digitranscode est une application simple pour convertir des fichiers audio et de
 * Documentation officielle utilisateur : <https://ladigitale.dev/blog/digitranscode-pour-convertir-des-fichiers-audio-et-des-videos>
 * Documentation officielle de l’admin : <https://codeberg.org/ladigitale/digitranscode/src/branch/main/README.md>
 * Dépôt de code officiel de l’app : <https://codeberg.org/ladigitale/digitranscode>
+* YunoHost Store: <https://apps.yunohost.org/app/digitranscode>
 * Signaler un bug : <https://github.com/YunoHost-Apps/digitranscode_ynh/issues>
 
 ## Informations pour les développeurs
