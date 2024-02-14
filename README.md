@@ -19,7 +19,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 Digitranscode is a simple application to convert audio and video files thanks to FFMPEG.wasm - https://github.com/ffmpegwasm/ffmpeg.wasm (MIT License).
 
 
-**Shipped version:** 0.1.8~ynh1
+**Shipped version:** 0.1.9~ynh1
 
 **Demo:** https://ladigitale.dev/digitranscode/
 ## Documentation and resources
