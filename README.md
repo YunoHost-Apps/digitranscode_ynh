@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install Digitranscode with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digitranscode)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install Digitranscode quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -19,7 +19,7 @@ It shall NOT be edited by hand.
 Digitranscode is a simple application to convert audio and video files thanks to FFMPEG.wasm - https://github.com/ffmpegwasm/ffmpeg.wasm (MIT License).
 
 
-**Shipped version:** 0.1.9~ynh1
+**Shipped version:** 0.2.0~ynh1
 
 **Demo:** <https://ladigitale.dev/digitranscode/>
 ## Documentation and resources
