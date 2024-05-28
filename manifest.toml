@@ -7,7 +7,7 @@ name = "Digitranscode"
 description.en = "Online converter of audio files and videos into different formats"
 description.fr = "Convertisseur en ligne de fichiers audio et vidéos en différents formats"
 
-version = "0.2.0~ynh2"
+version = "0.2.0~ynh3"
 
 maintainers = ["Pierre-Amiel Giraud"]
 
