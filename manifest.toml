@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "digitranscode"
 name = "Digitranscode"
-description.en = "an online app that can convert audio files and video files into different formats."
-description.fr = "Une application en ligne qui permet de convertir des fichiers audio et des vidéos en différents formats."
+description.en = "Online converter of audio files and videos into different formats"
+description.fr = "Convertisseur en ligne de fichiers audio et vidéos en différents formats"
 
 version = "0.2.0~ynh2"
 
