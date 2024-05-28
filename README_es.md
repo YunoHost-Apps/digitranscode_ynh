@@ -19,7 +19,7 @@ No se debe editar a mano.
 Digitranscode is a simple application to convert audio and video files thanks to FFMPEG.wasm - https://github.com/ffmpegwasm/ffmpeg.wasm (MIT License).
 
 
-**Versión actual:** 0.2.0~ynh2
+**Versión actual:** 0.2.0~ynh3
 
 **Demo:** <https://ladigitale.dev/digitranscode/>
 ## Documentaciones y recursos
