@@ -48,7 +48,7 @@ ram.runtime = "5M"
 [resources]
     [resources.sources.main]
     url = "https://codeberg.org/ladigitale/digitranscode/releases/download/0.2.0/digitranscode-v0.2.0.zip"
-    sha256 = "1600c1893c708c2ca9e70ce3a02d110269359561379916220f4ac2269abbb4e7"
+    sha256 = "2906944679dffa25af88466198a7c559688e44db3a12511a1c99e44b5eb784c1"
     autoupdate.strategy = "latest_forgejo_release"
 
     [resources.system_user]
