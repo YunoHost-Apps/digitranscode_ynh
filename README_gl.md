@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # Digitranscode para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/digitranscode.svg)](https://dash.yunohost.org/appci/app/digitranscode) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/digitranscode.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/digitranscode.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/digitranscode.svg)](https://ci-apps.yunohost.org/ci/apps/digitranscode/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/digitranscode.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/digitranscode.maintain.svg)
 
 [![Instalar Digitranscode con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digitranscode)
 
