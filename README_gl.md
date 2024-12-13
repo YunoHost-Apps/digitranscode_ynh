@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Digitranscode para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/digitranscode.svg)](https://ci-apps.yunohost.org/ci/apps/digitranscode/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/digitranscode.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/digitranscode.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/digitranscode)](https://ci-apps.yunohost.org/ci/apps/digitranscode/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/digitranscode)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/digitranscode)
 
 [![Instalar Digitranscode con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=digitranscode)
 
@@ -19,7 +21,7 @@ NON debe editarse manualmente.
 Digitranscode is a simple application to convert audio and video files thanks to FFMPEG.wasm - https://github.com/ffmpegwasm/ffmpeg.wasm (MIT License).
 
 
-**Versión proporcionada:** 0.2.0~ynh3
+**Versión proporcionada:** 0.2.1~ynh1
 
 **Demo:** <https://ladigitale.dev/digitranscode/>
 ## Documentación e recursos
