@@ -11,6 +11,21 @@ ynh_script_progression "Upgrading source files..."
 ynh_setup_source --dest_dir="$install_dir" --full_replace
 
 #=================================================
+# NODEJS DOWNLOAD AND BUILD
+#=================================================
+ynh_script_progression "Installing NodeJS and its dependencies..."
+
+nodejs_version=20
+ynh_nodejs_install
+
+pushd $install_dir
+    npm install
+    
+    ynh_script_progression "Building $app..."
+    npm run build
+popd
+
+#=================================================
 # NGINX CONFIGURATION
 #=================================================
 ynh_script_progression "Upgrading system configurations related to $app..."
