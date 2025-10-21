@@ -15,14 +15,11 @@ ynh_setup_source --dest_dir="$install_dir" --full_replace
 #=================================================
 ynh_script_progression "Installing NodeJS and its dependencies..."
 
-#REMOVEME? nodejs_version=20
-#REMOVEME? ynh_nodejs_install
-
 pushd $install_dir
-    npm install
+    ynh_hide_warnings ynh_exec_as_app npm install
     
     ynh_script_progression "Building $app..."
-    npm run build
+    _ynh_hide_warnings ynh_exec_as_app npm run build
 popd
 
 #=================================================
