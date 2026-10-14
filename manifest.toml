@@ -7,7 +7,7 @@ name = "Digitranscode"
 description.en = "Online converter of audio files and videos into different formats"
 description.fr = "Convertisseur en ligne de fichiers audio et vidéos en différents formats"
 
-version = "0.3.1~ynh1"
+version = "0.3.2~ynh1"
 
 maintainers = ["Pierre-Amiel Giraud"]
 
@@ -47,8 +47,8 @@ ram.runtime = "5M"
 
 [resources]
     [resources.sources.main]
-    url = "https://codeberg.org/ladigitale/digitranscode/releases/download/0.3.1/digitranscode-v0.3.1.zip"
-    sha256 = "c541daa34a200abebefe94e87a2f048179129494ff8e5f3131720957b0124ce0"
+    url = "https://codeberg.org/ladigitale/digitranscode/releases/download/0.3.2/digitranscode-v0.3.2.zip"
+    sha256 = "fc730b218da1286d703328923b95252b0dbc80cd79e389c940a362484bf827fb"
 
     autoupdate.strategy = "latest_forgejo_release"
     autoupdate.asset = "^digitranscode-v.*\\.zip$"
